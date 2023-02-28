@@ -5,18 +5,22 @@ The goal of this project is to build a model that would take a question from a u
 ### Methods Used
 * Web Scraping
 * EDA
-* Data Visualization
-* Predictive Modeling
-* Machine Learning
+* Sentiment Analysis
+* Deep Learning
+* Model Finetuning
 ### Technologies
 * Python
 * Pandas
 * Seaborn
 * Matplotlib
-* Scipy.stats
-* Numpy
 * Scikit-learn
-* XGBoost Classifier
+* NLTK
+* Gensim
+* pyLDAvis
+* GPT-2-simple
+* Flask
+* Starlette
+* Tensorflow
 ## Project Description
 ## Featured Notebooks/Reports
 * [Data Wrangling/Exploratory Data Analysis](https://github.com/yuliyaselevich/Capstone-3-GPT2-Mental-Health-Advice/blob/main/Notebooks/Capstone3_DataWrangling_EDA.ipynb)
