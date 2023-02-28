@@ -22,7 +22,6 @@ The goal of this project is to build a model that would take a question from a u
 * Flask
 * Starlette
 * Tensorflow
-## Project Description
 ## Featured Notebooks/Reports
 * [Data Wrangling/Exploratory Data Analysis](https://github.com/yuliyaselevich/Capstone-3-GPT2-Mental-Health-Advice/blob/main/Notebooks/Capstone3_DataWrangling_EDA.ipynb)
 * [Preprocessing/Modeling](https://github.com/yuliyaselevich/Capstone-3-GPT2-Mental-Health-Advice/blob/main/Notebooks/Capstone3_Pre-processing_Modeling.ipynb)
