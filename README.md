@@ -5,6 +5,7 @@ The goal of this project is to build a model that would take a question from a u
 ### Methods Used
 * Web Scraping
 * EDA
+* Natural Language Processing
 * Sentiment Analysis
 * Deep Learning
 * Model Finetuning
