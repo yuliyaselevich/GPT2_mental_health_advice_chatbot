@@ -6,11 +6,11 @@ The data for this project was scraped from Reddit's r/mentalhealth and r/mentali
 * **Id**: Unique identification number for each submission.
 * **Title**: The title of the submission, is often a question.
 * **Selftext**: Additional content provided by the submission author.
-* **Created**: The submission's creation date.
-<br>The Comments DataFrame also had 'id' and 'created' columns, along with the following columns:
+* **Created**: The submission's creation date.<be>
+The Comments DataFrame also had 'id' and 'created' columns, along with the following columns:
 * **Link_id**: ID matching each submission with its associated comments.
-* **Body**: The content of the comment.
-<br>After cleaning and processing the data, duplicate comments and irrelevant entries were removed, resulting in 415,290 rows in the Submissions DataFrame and 1,556,846 rows in the Comments DataFrame.
+* **Body**: The content of the comment.<be>
+After cleaning and processing the data, duplicate comments and irrelevant entries were removed, resulting in 415,290 rows in the Submissions DataFrame and 1,556,846 rows in the Comments DataFrame.
 ## Exploratory Data Analysis
 During the exploratory data analysis, I examined the most popular words in titles and comments, identified polarity and subjectivity, and calculated readability scores. The analysis revealed differences between titles and comments, with titles often having a negative connotation and comments having a neutral or positive connotation. The majority of sentences in both titles and comments showed neutral polarity, indicating a lack of emotional expression. Additionally, I used LDA (Latent Dirichlet Allocation) modeling to investigate topics, but the low coherence scores suggested challenges in revealing specific topics beyond the general theme of mental health.
 ![Alt Top 10 words in titles](https://github.com/yuliyaselevich/GPT2_mental_health_advice_chatbot/blob/main/Images/1.png)
