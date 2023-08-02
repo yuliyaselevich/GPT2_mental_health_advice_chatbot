@@ -23,8 +23,8 @@ The goal of this project is to build a model that would take a question from a u
 * Starlette
 * Tensorflow
 ## Featured Notebooks/Reports
-* [Data Wrangling/Exploratory Data Analysis](https://github.com/yuliyaselevich/Capstone-3-GPT2-Mental-Health-Advice/blob/main/Notebooks/Capstone3_DataWrangling_EDA.ipynb)
-* [Preprocessing/Modeling](https://github.com/yuliyaselevich/Capstone-3-GPT2-Mental-Health-Advice/blob/main/Notebooks/Capstone3_Pre-processing_Modeling.ipynb)
+* [Data Wrangling/Exploratory Data Analysis](https://github.com/yuliyaselevich/GPT2_mental_health_advice_chatbot/blob/main/Notebooks/data_wrangling_eda.ipynb)
+* [Preprocessing/Modeling](https://github.com/yuliyaselevich/GPT2_mental_health_advice_chatbot/blob/main/Notebooks/preprocessing_modeling.ipynb)
 * [Project Report](https://github.com/yuliyaselevich/Capstone-3-GPT2-Mental-Health-Advice/blob/main/Documents/Capstone3_ProjectReport.pdf)
 ## Contact
 * [LinkedIn](https://www.linkedin.com/in/yuliyaselevich/)
