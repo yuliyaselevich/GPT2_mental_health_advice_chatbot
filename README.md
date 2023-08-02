@@ -2,14 +2,18 @@
 ## Introduction
 Mental and physical health are crucial components of overall well-being, with mental health significantly impacting physical health and behaviors. To address this, an AI-based chatbot can serve as a primary tool to improve general well-being and provide support to those hesitant to seek professional help due to stigma and prejudice surrounding mental illness. The objective of this project is to build a model capable of receiving user questions and providing sensible, relevant, and human-like answers with strong grammar and spelling.
 ## Data
-The data for this project was scraped from Reddit's r/mentalhealth and r/mentalillness subreddits using the Python Pushshift API Wrapper (PSAW). The data included both posts and comments, which were stored in separate Pandas DataFrames. The Submissions DataFrame contained the following columns:
+The data for this project was scraped from Reddit's r/mentalhealth and r/mentalillness subreddits using the Python Pushshift API Wrapper (PSAW). The data included both posts and comments, which were stored in separate Pandas DataFrames. 
+
+The Submissions DataFrame contained the following columns:
 * **Id**: Unique identification number for each submission.
 * **Title**: The title of the submission, is often a question.
 * **Selftext**: Additional content provided by the submission author.
-* **Created**: The submission's creation date.<be>
+* **Created**: The submission's creation date.
+
 The Comments DataFrame also had 'id' and 'created' columns, along with the following columns:
 * **Link_id**: ID matching each submission with its associated comments.
-* **Body**: The content of the comment.<be>
+* **Body**: The content of the comment.
+
 After cleaning and processing the data, duplicate comments and irrelevant entries were removed, resulting in 415,290 rows in the Submissions DataFrame and 1,556,846 rows in the Comments DataFrame.
 ## Exploratory Data Analysis
 During the exploratory data analysis, I examined the most popular words in titles and comments, identified polarity and subjectivity, and calculated readability scores. The analysis revealed differences between titles and comments, with titles often having a negative connotation and comments having a neutral or positive connotation. The majority of sentences in both titles and comments showed neutral polarity, indicating a lack of emotional expression. Additionally, I used LDA (Latent Dirichlet Allocation) modeling to investigate topics, but the low coherence scores suggested challenges in revealing specific topics beyond the general theme of mental health.
