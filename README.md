@@ -22,6 +22,7 @@ During the exploratory data analysis, I examined the most popular words in title
 |:--:| 
 | *Top 10 words in titles* |
 | ![Top 10 words in comments](https://github.com/yuliyaselevich/GPT2_mental_health_advice_chatbot/blob/main/Images/2.png) |
+|:--:|
 | *Top 10 words in comments* |
 ## Modeling
 For this project, I utilized the GPT-2 pre-trained model and the gpt-2-simple package. GPT-2 is an unsupervised deep learning transformer-based language model developed by OpenAI. The model was fine-tuned using 2,100 steps, with output samples generated every 500 steps. Although parameters like 'temperature' and 'top_k' were meant to control randomness and diversity in output, the model often produced seemingly random and nonsensical results regardless of these settings.
